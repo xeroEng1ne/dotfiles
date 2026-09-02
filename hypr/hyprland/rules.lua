@@ -72,8 +72,8 @@ hl.window_rule({ match = { class = "^(waypaper)" }, float = true })
 -- =====================================================
 -- 3. RICE AESTHETICS (Transparency)
 -- =====================================================
-hl.window_rule({ match = { class = "^(kitty)$" }, opacity = { 0.90, 0.90 } })
-hl.window_rule({ match = { class = "^(neovide)$" }, opacity = { 0.90, 0.90 }, no_shadow = true })
+hl.window_rule({ match = { class = "^(kitty)$" }, opacity = "0.90 0.90" })
+hl.window_rule({ match = { class = "^(neovide)$" }, opacity = "0.90 0.90", no_shadow = true })
 
 -- =====================================================
 -- 4. GAMING & PERFORMANCE (Tearing)
